@@ -1,0 +1,21 @@
+body {
+    margin: 0px;
+    background-color: rgba(250, 215, 215, 0.636);
+     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+
+#name{
+    font-size:xx-large;
+    padding-right: 2rem;
+}
+.intro{
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem 4rem;
+}
+.title{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+}

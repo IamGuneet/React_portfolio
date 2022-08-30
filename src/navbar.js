@@ -2,7 +2,7 @@ import React from 'react'
 
 function navbar() {
   return (
-    <div>
+    <div className='header'>
      
      <nav class="navbar navbar-expand-lg navbar-light display-7 ">
   <div class="container-fluid">
@@ -12,8 +12,8 @@ function navbar() {
     </button>
     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
       <div class="navbar-nav ">
-        <a class="nav-link active" aria-current="page" href="#">Home</a>
-        <a class="nav-link" href="#">About</a>
+        <a class="nav-link active" aria-current="page" href="#home">Home</a>
+        <a class="nav-link" href="#about">About</a>
         <a class="nav-link" href="#">Skills</a>
         <a class="nav-link" href="#">Projects</a>
         <a class="nav-link" href="#">Contact</a>

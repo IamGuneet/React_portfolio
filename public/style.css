@@ -31,26 +31,51 @@ body {
     align-items:center;
 }
 .container{
-    margin: 0px;
+    display: flex;
+    margin-left: auto;
+    /* text-align: left; */
+    margin-right: auto;
+    /* display: flex; */
+    /* text-align: center; */
+    /* padding: auto; */
+    /* margin: auto; */
+    /* width: 100vh;/ */
+    justify-content: center;
+    align-items: center;
+    /* margin: 0px; */
     padding: 0px 0px;
+    padding-top: 2em;
+    /* padding-bottom: 2em;s */
     /* padding-top: 3rem; */
-        padding-bottom: 2em;
-        /* border-bottom: 1px solid #000; */
+    padding-bottom: 4em;
+    /* border-bottom: 1px solid #000; */
 }
 .profile-pic{
     max-height:400px ;
     max-width: 300px;
     min-height:50px;
     min-width: 50px;
-    /* border-radius: 50%; */
-    /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
+    border-radius: 50%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     /* border: 1px solid rgba(4, 4, 4, 0.518); */
+}
+.icon{
+    max-width:150px ;
+    max-height:150px ;
+    min-width: 50px;
+    min-height: 50px;
+    border-radius: 50%;
 }
 @media (max-width: 576px){
     .profile-pic{
         height: 120px;
         /* width: 120px; */
     }
+.icon{
+    max-width: 40px;
+    max-height: 40px;
+    
+}
     .name{
         font-size: 1.3rem;
     }
@@ -102,3 +127,23 @@ p{
     /* flex-direction: column; */
     padding: 1em;
 }
+.container-skills{
+    padding: 3rem;
+    /* padding-bottom: 3rem; */
+    display: flex;
+    gap: 2rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid ;
+    padding-bottom: 5em;
+
+
+}
+.skillIcons{
+    display: flex;
+    justify-content:center;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+

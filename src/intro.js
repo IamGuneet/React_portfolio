@@ -12,8 +12,8 @@ export default function intro() {
         ...Coder...
         </h3>
         </div>
-        <img className='profile-pic' src={pic} alt='img'/>
       </div>
+        <img className='profile-pic' src={pic} alt='img'/>
     </div>
     
     </>

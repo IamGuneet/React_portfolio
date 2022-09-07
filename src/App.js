@@ -3,6 +3,8 @@ import Navbar from "./navbar.js";
 import Intro from "./intro.js"
 import About from "./about.js"
 import Skills from "./skill.js"
+import Projects from "./project.js"
+import Contact from "./contact.js"
 function App() {
   return (
     <div>
@@ -10,6 +12,8 @@ function App() {
     <Intro />
     <About />
     <Skills />
+    <Projects />
+    <Contact />
     </div>
   )
 }

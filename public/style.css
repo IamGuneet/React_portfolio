@@ -80,12 +80,13 @@ body {
         font-size: 1.3rem;
     }
     h3{
-        font-size: 0.7rem;
+        font-size: 1rem;
     }
     p{
         font-size: 0.9rem;
 
     }
+
 }
 
 .sub-title{
@@ -135,7 +136,7 @@ p{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    border-bottom: 1px solid ;
+    /* border-bottom: 1px solid black ; */
     padding-bottom: 5em;
 
 
@@ -146,4 +147,40 @@ p{
     gap: 2rem;
     flex-wrap: wrap;
 }
+.project-cards{
+    max-width: 1200px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+    /* border-bottom: 1px solid #000;    */
+}
 
+.container-contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 2rem;
+    gap: 10px;
+    border-bottom: 1px solid #000;
+}
+.sub-contact{
+    color: rgba(0, 0, 0, 0.568);
+    text-align: left;
+    padding: 3px;
+}
+a{
+    text-decoration:none;
+    color: rgba(40, 107, 196, 0.801);
+
+}
+.links{
+    
+    display: flex;
+    gap: 2rem;
+    /* justify-content: center; */
+    /* padding: 1rem; */
+    justify-content: space-between;
+}

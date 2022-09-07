@@ -3,6 +3,7 @@ import pic from './img/profile-pic.png'
 export default function intro() {
   return (
     <>
+    
     <div className='container' id='home'>
       <div className='intro'>
         <div className='title'>

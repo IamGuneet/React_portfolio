@@ -10,6 +10,8 @@ body {
     /* position: absolute; */
     margin-bottom: 2em;
     border-bottom: 1px solid rgba(0, 0, 0, 0.144);
+    /* position:fixed; */
+    /* width: 200vh; */
 }
 #name{
     text-decoration: underline;
@@ -165,6 +167,8 @@ p{
     padding: 2rem;
     gap: 10px;
     border-bottom: 1px solid #000;
+    /* width: 30vh; */
+    min-height: 30vh;
 }
 .sub-contact{
     color: rgba(0, 0, 0, 0.568);
@@ -184,3 +188,20 @@ a{
     /* padding: 1rem; */
     justify-content: space-between;
 }
+.footer{
+    /* font-size: smaller; */
+    text-align: center;
+    padding: 5px 0px;
+    background-color: #fff;
+    border-bottom: 1px solid #000;
+    background-color: rgba(242, 242, 242, 0.776);
+    /* position:fixed; */
+}
+#myBtn {
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 30%;
+    border: 2px solid;
+    font-size: larger;
+    margin-top: 1rem;
+  }

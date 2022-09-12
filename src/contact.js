@@ -26,7 +26,7 @@ function contact() {
            </a>
         </div>
 </div>
-    <button id="myBtn" title="Go to top"><a href='#home'>Top</a></button>
+    <button id="myBtn" title="Go to top"><a href='/'>Top</a></button>
 
     </div>
   )
